@@ -10,6 +10,7 @@ package herenciapersona;
  */
 
 import javax.swing.JOptionPane;
+import java.util.List;
 
 public class DAOEstudiante {
     
@@ -18,6 +19,7 @@ public class DAOEstudiante {
     //un objeto por parte de estudiante
     Estudiante obj[] = new Estudiante[10];
     int x = 0;
+    List<Estudiante> obj = SerializacionEstudiante.cargar();
     
     //metodo del menu para el programa
     void menu(){
@@ -31,7 +33,8 @@ public class DAOEstudiante {
                     + "2.- Mostrar los datos de todos los estudiantes \n"
                     + "3.- Editar los datos de un estudiante \n"
                     + "4.- Elininar un estudiante \n"
-                    + "5.- Buscar estudiante por boleta \n"));
+                    + "5.- Buscar estudiante por boleta \n"
+                    + "6.- Guardar datos \n"));
             switch (op) {
                 case 1:
                     //metodo para registrar
@@ -58,6 +61,12 @@ public class DAOEstudiante {
                     buscarEstudiante();
 
                     break;
+                case 6:
+
+                    SerializacionEstudiante.guardar(obj);
+                    JOptionPane.showMessageDialog(null, "Datos de estudiantes guardados correctamente.");
+                    break;
+
                 default:
                     JOptionPane.showMessageDialog(null, "Opcion no valida");
             }
@@ -108,6 +117,7 @@ public class DAOEstudiante {
     }
 
     public void editarEstudiante() {
+
         int boleta = Integer.parseInt(JOptionPane.showInputDialog(
                 "Ingresa la boleta del estudiante que deseas editar: "));
 
@@ -136,6 +146,7 @@ public class DAOEstudiante {
 }
 
 public void eliminarEstudiante() {
+
      int boleta = Integer.parseInt(JOptionPane.showInputDialog(
                 "Ingresa la boleta del estudiante que deseas eliminar: "));
     
@@ -158,6 +169,7 @@ public void eliminarEstudiante() {
 }
 
 public void buscarEstudiante() {
+    
     int boleta = Integer.parseInt(JOptionPane.showInputDialog(
         "Ingresa la boleta del estudiante que deseas buscar: "));
     
