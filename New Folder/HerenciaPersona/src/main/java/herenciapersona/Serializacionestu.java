@@ -13,7 +13,7 @@ import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
 
-public class SerializacionEstudiante {
+class SerializacionEstudiante {
     
     private static final String ARCHIVO_DATOS = "estudiantes.dat";
 

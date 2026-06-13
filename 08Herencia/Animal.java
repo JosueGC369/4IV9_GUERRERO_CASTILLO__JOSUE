@@ -42,7 +42,7 @@ public class Animal{
     }
 
     public String getRaza(){
-        return raz;
+        return raza;
     }
 
     public void setRaza(String raz){

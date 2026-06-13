@@ -5,7 +5,7 @@ class Principal{
     //metodo principal
     public static void main(String[] args){
         //un ejercicio de figuritas
-        Ejercicio de ejecucion = new Ejercicios();
+        Ejercicios ejecucion = new Ejercicios();
         ejecucion.menu();
     }
 }

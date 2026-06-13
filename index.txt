@@ -1,0 +1,80 @@
+PORTAFOLIO DE EVIDENCIAS
+
+CARATULA
+
+Nombre del estudiante: Josue Guerrero Castillo
+Grupo: 4IV9
+Materia: Programacion I
+Portafolio de evidencias de clase
+
+Enlace al codigo de GitHub:
+https://github.com/JosueGC369/4IV9_GUERRERO_CASTILLO__JOSUE.git
+
+Archivo para ejecutar las practicas:
+index.bat
+
+
+OBJETIVO DEL PORTAFOLIO
+
+Este portafolio tiene como objetivo reunir las practicas realizadas durante la
+clase para mostrar el trabajo, el avance y los aprendizajes obtenidos en la
+materia. Tambien sirve como evidencia de las actividades desarrolladas durante
+el curso.
+
+
+ELEMENTOS APRENDIDOS EN LA MATERIA
+
+Durante la materia se aprendio a crear programas basicos, pedir datos al
+usuario, usar estructuras de datos, trabajar con clases, arreglos, herencia,
+ventanas, serializacion, listas y conexion con base de datos.
+
+Tambien se reforzo la organizacion de practicas, el uso de archivos de codigo y
+la entrega del proyecto por medio de GitHub.
+
+
+MENU DE PRACTICAS
+
+01. Hola Mundo
+    Carpeta: 01HolaMundo
+
+02. Entrada de datos
+    Carpeta: 02EntradaDatos
+
+03. Estructura de datos
+    Carpeta: 03EstructuraDatos
+
+04. Examen de programacion
+    Carpeta: 04Examen
+
+05. Clases
+    Carpeta: 05clases
+
+06. Figuras
+    Carpeta: 06Figura
+
+07. Arreglos
+    Carpeta: 07Arreglos
+
+08. Herencia
+    Carpeta: 08Herencia
+
+09. Serializacion
+    Carpeta: 10Serializacion
+
+10. ArrayList
+    Carpeta: 11ArrayList
+
+11. Ventana
+    Carpeta: 13Ventana
+
+12. CRUD con SQL
+    Carpeta: 14CRUDSQL
+
+13. Herencia Persona
+    Carpeta: New Folder/HerenciaPersona
+
+
+NOTA FINAL
+
+Cada carpeta contiene una practica realizada en clase. Este archivo funciona
+como pagina principal del portafolio y como menu para ubicar cada evidencia.
