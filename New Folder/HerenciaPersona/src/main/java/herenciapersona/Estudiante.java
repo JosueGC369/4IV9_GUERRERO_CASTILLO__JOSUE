@@ -15,7 +15,7 @@ public class Estudiante extends Persona {
     
     public Estudiante(int numboleta, String nom, int edad, char gen){
         super(nom, edad, gen);
-        this.numBoleta = numboleta;
+        this.numBoleta = numBoleta;
     }
 
     public Estudiante(int numBoleta, String chillon, String nombre, int edad, char genero) {
